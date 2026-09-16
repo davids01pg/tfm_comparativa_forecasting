@@ -106,4 +106,4 @@ Geovanna Gallegos, David Paredes
 
 ## Licencia
 
-Este proyecto está bajo la licencia CC0: Public Domain en la plataforma Kaggle. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la licencia CC0: Public Domain en la plataforma Kaggle.
