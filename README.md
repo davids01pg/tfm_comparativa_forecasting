@@ -11,7 +11,7 @@ Se comparan tres enfoques de forecasting bajo condiciones metodológicas equival
 
 El desarrollo sigue la metodología **CRISP-DM** y utiliza la librería **skforecast** para asegurar que los tres modelos se evalúen con el mismo esquema de backtesting, las mismas variables exógenas (temperatura y calendario con codificación cíclica) y las mismas métricas de error (MAE, RMSE, MAPE).
 
-El estudio evita generalizar los hallazgos como una superioridad definitiva de una familia de modelos sobre otra, situándolos dentro de sus límites metodológicos, temporales y de alcance del alimentador estudiado. Adicionalmente, se documentan las implicaciones de costo computacional de cada alternativa —un aspecto poco abordado en la literatura ecuatoriana revisada—, así como consideraciones de privacidad de datos y líneas de trabajo futuro.
+El estudio evita generalizar los hallazgos como una superioridad definitiva de una familia de modelos sobre otra, situándolos dentro de sus límites metodológicos, temporales y de alcance del alimentador estudiado. Adicionalmente, se documentan las implicaciones de costo computacional de cada alternativa (un aspecto poco abordado en la literatura ecuatoriana revisada), así como consideraciones de privacidad de datos y líneas de trabajo futuro.
 
 ## Instrucciones de instalación
 
@@ -87,16 +87,18 @@ Para reproducir los resultados correctamente, se recomienda ejecutar los cuadern
 4. Los resultados y gráficos generados se guardarán en la carpeta `/outputs` (si aplica).
 
 ## Estructura del proyecto
+
+```
 nombre-repositorio/
-│
-├── data/ # Datos utilizados en el proyecto
-│ ├── data_2021_2022_interpolado.csv
-├── notebooks/ # Cuadernos de Jupyter
-│ ├── KagglePrepareData.ipynb
-│ └── CompareXGBoostLSTM.ipynb
-├── outputs/ # Resultados generados
-├── requirements.txt # Dependencias del proyecto
-└── README.md # Este archivo
+├── data/                          # Datos utilizados en el proyecto
+│   └── data_2021_2022_interpolado.csv
+├── notebooks/                     # Cuadernos de Jupyter
+│   ├── KagglePrepareData.ipynb
+│   └── CompareXGBoostLSTM.ipynb
+├── outputs/                       # Resultados generados
+├── requirements.txt               # Dependencias del proyecto
+└── README.md                      # Este archivo
+```
 
 ## Autor
 
